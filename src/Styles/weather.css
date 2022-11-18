@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  padding: 10px;
+}
+input{
+  padding: 6px;
+  width: 280px;
+  font-size: large;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: whitesmoke;
+}
+button{
+  padding: 9px;
+  width: 100px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: khaki;
+}
+button:hover{
+  background-color: rgb(249, 242, 184);
+}
+button:active{
+  box-shadow: 0 0 2px black;
+}
